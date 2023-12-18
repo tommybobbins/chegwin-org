@@ -27,7 +27,7 @@ resource "aws_s3_bucket_public_access_block" "www" {
 }
 
 resource "aws_cloudfront_origin_access_control" "www" {
-  name                              = "cloudfront OAC"
+  name                              = "cloudfront OAC ${split(".",var.domain_name)[0]}"
   description                       = "description of OAC"
   origin_access_control_origin_type = "s3"
   signing_behavior                  = "always"

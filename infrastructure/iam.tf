@@ -1,5 +1,5 @@
 resource "aws_iam_user" "s3_write_access" {
-  name = "bucket-write-role"
+  name = "${split(".",var.domain_name)[0]}-bucket-write-role"
 }
 
 data "aws_iam_policy_document" "s3_write_access" {
@@ -19,7 +19,7 @@ data "aws_iam_policy_document" "s3_write_access" {
 }
 
 resource "aws_iam_policy" "s3_write_access" {
-  name   = "AllowWriteBucket"
+  name   = "AllowWriteBucket-${split(".",var.domain_name)[0]}"
   path   = "/"
   policy = data.aws_iam_policy_document.s3_write_access.json
 }
@@ -30,14 +30,14 @@ resource "aws_iam_user_policy_attachment" "s3_write_access" {
 }
 
 
-module "github-oidc" {
-  source  = "terraform-module/github-oidc-provider/aws"
-  version = "~> 1"
-
-  create_oidc_provider = true
-  create_oidc_role     = true
-
-  repositories              = [var.github_repository]
-  oidc_role_attach_policies = [aws_iam_policy.s3_write_access.arn]
-#  oidc_role_attach_policies = ["arn:aws:iam::aws:policy/AmazonS3FullAccess"]
-}
+#module "github-oidc" {
+#  source  = "terraform-module/github-oidc-provider/aws"
+#  version = "~> 1"
+#
+#  create_oidc_provider = true
+#  create_oidc_role     = true
+#
+#  repositories              = [var.github_repository]
+#  oidc_role_attach_policies = [aws_iam_policy.s3_write_access.arn]
+##  oidc_role_attach_policies = ["arn:aws:iam::aws:policy/AmazonS3FullAccess"]
+#}
