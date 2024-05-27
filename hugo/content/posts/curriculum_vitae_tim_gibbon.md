@@ -53,6 +53,7 @@ acle, Redis.
 - ITIL - Change control, auditing and reporting. SOC2 and ISO27001 au-
 diting.
 ## Education
+- Certified Argo Project Associate.
 - HashiCorp Certified: Terraform Associate. 
 - Kubernetes: Certified Kubernetes Security Specialist.
 - Kubernetes: Certified Kubernetes Application Developer. 
