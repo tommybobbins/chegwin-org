@@ -1,13 +1,13 @@
 ---
 title: "Curriculum Vitae - Tim Gibbon"
-date: 2023-12-10T10:40:03Z
+date: 2024-07-06T10:40:03Z
 draft: false
 ---
 
 # Tim Gibbon 07977 549 321 tng@chegwin.org
 ## Professional Experience
 
-### Jul 2022 - Current Senior DevOps Engineer, Missionlabs/Gammalabs
+### Jul 2022 - Jul 2024 Senior DevOps Engineer, Missionlabs/Gammalabs
 
 - Terraform build and deployment to 30 AWS/3 GCP Accounts (bitbucket pipelines).
 - 3 major projects delivered within timescales, budget and to 99.98% annual availability.
@@ -18,7 +18,7 @@ draft: false
 - Lead Disaster recovery engineer.
 - Build out of Grafana/Prometheus/Thanos for high availability metrics and monitoring.
 - Trivy deployment, allowing developers to identify security vulnerabilities during development.
-- Zero downtime Upgrades of Kubernetes (EKS) clusters from versions 1.21 through 1.28.
+- Zero downtime Upgrades of 30 Kubernetes (EKS) clusters from versions 1.21 through 1.30.
 
 ### Jul 2021 - Jul 2022 Senior DevOps Engineer/Engineering Manager, Peak
 
@@ -54,10 +54,10 @@ acle, Redis.
 diting.
 ## Education
 - Certified Argo Project Associate.
-- HashiCorp Certified: Terraform Associate. 
 - Kubernetes: Certified Kubernetes Security Specialist.
 - Kubernetes: Certified Kubernetes Application Developer. 
 - Kubernetes: Certified Kubernetes Adminstrator.
+- HashiCorp Certified: Terraform Associate. 
 - AWS: Certified Solutions Architect.
 - AWS: Certified SysOps Administrator.
 - AWS: Certified Cloud Practictioner.
