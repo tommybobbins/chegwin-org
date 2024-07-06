@@ -7,6 +7,8 @@ draft: false
 # Tim Gibbon 07977 549 321 tng@chegwin.org
 ## Professional Experience
 
+### Jul 2024 - Current Platform Engineer, AND Digital
+
 ### Jul 2022 - Jul 2024 Senior DevOps Engineer, Missionlabs/Gammalabs
 
 - Terraform build and deployment to 30 AWS/3 GCP Accounts (bitbucket pipelines).
