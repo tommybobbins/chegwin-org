@@ -62,8 +62,8 @@ diting.
 - HashiCorp Certified: Terraform Associate. 
 - AWS: Certified Solutions Architect.
 - AWS: Certified SysOps Administrator.
-- AWS: Certified Cloud Practictioner.
 - AWS: Certified Developer.
+- GCP: Professional Cloud Architect.
 - GCP: Associate Cloud Engineer. 
 - Linux: Red Hat Certified Engineer. 
 - PhD: Laser Photofragment Spectroscopy of Diatomic Molecular Ions.
