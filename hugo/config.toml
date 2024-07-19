@@ -4,19 +4,7 @@ languageCode = "en"
 
 title = "Chegwin Org"
 
-<<<<<<< HEAD
-[languages]
-  [languages.en]
-    title = "www.chegwin.org"
-    copyright = "&copy; 2020"
-    [languages.en.params]
-      keywords = ""
-      menuMore = "Show more"
-      readMore = "Read more"
-      readOtherPosts = "Read other posts"
-=======
 theme = "gokarna"
->>>>>>> b5b3c5c (Try new theme)
 
 # Automatically generate robots.txt
 enableRobotsTXT = true
