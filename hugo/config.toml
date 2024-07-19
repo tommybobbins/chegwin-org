@@ -1,6 +1,7 @@
 baseURL = "https://www.chegwin.org/"
 defaultContentLanguage = "en"
 languageCode = "en"
+uglyURLs = true
 
 title = "Chegwin Org"
 

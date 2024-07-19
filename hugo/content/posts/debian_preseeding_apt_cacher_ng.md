@@ -1,7 +1,7 @@
 ---
 title: "Debian Preseeding with apt-cacher-ng"
 date: 2018-11-06T20:41:11Z
-draft: False
+draft: false
 type: "post"
 ---
 
