@@ -2,6 +2,7 @@
 title: "Ipv6 EC2 Apache t3.nano"
 date: 2021-06-28T11:48:14+01:00
 draft: true
+type: "post"
 ---
 
 # Creating AWS EC2 t3 nano with Apache using Terraform.

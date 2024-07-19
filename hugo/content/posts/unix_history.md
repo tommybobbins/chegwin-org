@@ -2,6 +2,7 @@
 title: "Unix_history"
 date: 2020-03-27T22:58:50Z
 draft: false
+type: "post"
 ---
 
 # Unix History

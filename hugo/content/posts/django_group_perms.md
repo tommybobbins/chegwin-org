@@ -8,6 +8,7 @@ tags = ["", ""]
 keywords = ["", ""]
 description = ""
 showFullContent = false
+type="post"
 +++
 
 # Using Django group permissions for Object (Row) Level permissions

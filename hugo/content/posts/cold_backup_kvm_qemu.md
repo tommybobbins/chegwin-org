@@ -2,6 +2,7 @@
 title: "Cold backup of QEMU/KVM images"
 date: 2021-04-03T15:43:22Z
 drafts: "false"
+type: "post"
 ---
 
 # Taking a cold backup of a QEMU or KVM VMs

@@ -2,6 +2,7 @@
 title: "Growing the Underlying Disks for DRBD - move from smaller disks to bigger"
 date: 2021-04-18T21:34:35+01:00
 draft: false
+type: "post"
 ---
 
 # Moving from small disks to big disks in DRBD using logical volume manager.

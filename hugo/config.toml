@@ -1,16 +1,10 @@
-baseurl = "https://www.chegwin.org/"
-languageCode = "en-gb"
-theme = "terminal"
-paginate = 5
-uglyURLs = true
+baseURL = "https://www.chegwin.org/"
+defaultContentLanguage = "en"
+languageCode = "en"
 
-[params]
-  contentTypeName = "posts"
-  themeColor = "green"
-  showMenuItems = 5
-  fullWidthTheme = true
-  centerTheme = false
+title = "Chegwin Org"
 
+<<<<<<< HEAD
 [languages]
   [languages.en]
     title = "www.chegwin.org"
@@ -20,25 +14,40 @@ uglyURLs = true
       menuMore = "Show more"
       readMore = "Read more"
       readOtherPosts = "Read other posts"
+=======
+theme = "gokarna"
+>>>>>>> b5b3c5c (Try new theme)
 
-    [languages.en.params.logo]
-      logoText = "Terminal"
-      logoHomeLink = "/"
+# Automatically generate robots.txt
+enableRobotsTXT = true
 
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/posts/about.html"
-      [[languages.en.menu.main]]
-        identifier = "Twitter"
-        name = "Twitter"
-        url = "https://twitter.com/tommybobbins"
-      [[languages.en.menu.main]]
-        identifier = "GitHub"
-        name = "GitHub"
-        url = "https://github.com/tommybobbins"
-      [[languages.en.menu.main]]
-        identifier = "Linux"
-        name = "Linux"
-        url = "/posts/linux.html"
+[menu]
+  [[menu.main]]
+    # Unique identifier for a menu item
+    identifier = "posts"
+
+    url = "/posts/"
+   # You can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+
+    # You can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+
+    # Display name
+    name = "Posts"
+
+    # Weights are used to determine the ordering
+    weight = 1
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+    
+  [[menu.main]]
+    identifier = "github"
+    url = "https://github.com/tommybobbins"
+    weight = 3
+    # We use feather-icons: https://feathericons.com/
+    pre = "<span data-feather='github'></span>"

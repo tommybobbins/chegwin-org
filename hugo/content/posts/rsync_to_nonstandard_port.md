@@ -2,6 +2,7 @@
 title: "Rsync via SSH to a port other than 22"
 date: 2020-04-07T20:27:03+01:00
 draft: false
+type: "post"
 ---
 # Rsync via SSH to a port which is not 22
 ```

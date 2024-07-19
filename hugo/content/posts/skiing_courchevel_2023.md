@@ -6,6 +6,7 @@ authorTwitter = "" #do not include @
 cover = ""
 description = ""
 showFullContent = false
+type = "post"
 +++
 
 # Skiing Courchevel 2023

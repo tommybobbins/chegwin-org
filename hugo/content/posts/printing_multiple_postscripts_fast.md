@@ -8,6 +8,7 @@ tags = ["", ""]
 keywords = ["", ""]
 description = ""
 showFullContent = false
+type = "post"
 +++
 
 # Printing PDFs quickly from Linux onto a Postscript compatible printer

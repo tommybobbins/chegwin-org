@@ -2,6 +2,7 @@
 title: "Wireless Things, LLAP and house of the future"
 date: 2016-07-09T22:58:50Z
 draft: false
+type: "post"
 ---
 
 # Wireless things temperature sensors, LLAP and the house of the future.

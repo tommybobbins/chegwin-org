@@ -2,6 +2,7 @@
 title: "Wireless Things CR2032 battery life after 1 year."
 date: 2017-05-11T22:11:11Z
 draft: False
+type: "post"
 ---
 
 # Wireless things sensors after 1 year

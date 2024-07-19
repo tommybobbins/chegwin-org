@@ -2,6 +2,7 @@
 title: "Raspberry Pi video switcher"
 date: 2021-03-18T22:59:22Z
 draft: false
+type: "post"
 ---
 # Switching a looped video to another video when a GPIO pin is pushed
 

@@ -8,6 +8,7 @@ tags = ["", ""]
 keywords = ["", ""]
 description = ""
 showFullContent = false
+type = "post"
 +++
 
 # Update to the Central Heating System 
