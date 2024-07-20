@@ -6,7 +6,7 @@ defaultContentLanguage = "en"
 enableEmoji = true
 enableRobotsTXT = true
 #uglyURLs = true
-relativeURLs = true
+#relativeURLs = true
 
 
 
@@ -17,6 +17,7 @@ relativeURLs = true
     {name = "email", url = "mailto:tng@chegwin.org"}
   ]
   metaKeywords = ["blog", "Tim Gibbon", "hugo"]
+  showPostsOnHomePage = "recent"
 
 [menu]
   [[menu.main]]
