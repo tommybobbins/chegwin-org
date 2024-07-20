@@ -23,30 +23,29 @@ pygmentsStyle = "monokai"
 [menu]
   [[menu.main]]
     name = "Home"
-    pre = "<span data-feather='home'></span>"
+    identifier = "home"
     url = "/"
     weight = 1
 
   [[menu.main]]
     name = "Posts"
-    pre = "<span data-feather='book'></span>"
+    identifier = "posts"
     url = "/posts/"
     weight = 2
 
   [[menu.main]]
     name = "About"
-    pre = "<span data-feather='tag'></span>"
+    identifier = "about"
     url = "/posts/about/"
     weight = 3
 
   [[menu.main]]
     identifier = "rss"
-    pre = "<span data-feather='rss'></span>"
     url = "/index.xml"
     weight = 4
 
-[markup]
-  [markup.tableOfContents]
-    startLevel = 1
-    endLevel = 4
-    ordered = false
+#[markup]
+#  [markup.tableOfContents]
+#    startLevel = 1
+#    endLevel = 4
+#    ordered = false
