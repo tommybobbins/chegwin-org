@@ -35,7 +35,7 @@ enableRobotsTXT = true
   [[menu.main]]
     name = "About"
     pre = "<span data-feather='tag'></span>"
-    url = "/posts/about.html"
+    url = "/posts/about/"
     weight = 4
 
   [[menu.main]]
