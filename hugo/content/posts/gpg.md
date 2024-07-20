@@ -2,7 +2,7 @@
 title: "GPG Key"
 date: 2020-03-27T22:54:02Z
 draft: false
-type: "page"
+type: page
 ---
 ```
 pub   rsa4096 2014-07-08 [SC]

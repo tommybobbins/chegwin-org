@@ -1,8 +1,7 @@
 ---
 title: "Find and mail GFS locks"
 date: 2020-04-12T21:48:38+01:00
-draft: false
-type: "post"
+type: post
 ---
 
 Shell script to email when GFS locks are found in /var/log/messages. Ensure that you change the MAIL_TO and the MAIL_FROM variables before running the script

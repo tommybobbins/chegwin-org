@@ -1,13 +1,9 @@
-+++
-title = "Skiing Courchevel 2023"
-date = "2023-01-08"
-author = "Tim Gibbon"
-authorTwitter = "" #do not include @
-cover = ""
-description = ""
-showFullContent = false
-type = "post"
-+++
+---
+title: "Skiing Courchevel 2023"
+date: "2023-01-08"
+author: "Tim Gibbon"
+type: post
+---
 
 # Skiing Courchevel 2023
 

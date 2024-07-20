@@ -1,8 +1,7 @@
 ---
 title: "About"
 date: 2020-03-27T20:42:01Z
-draft: false
-type: "page"
+type: page
 ---
 
 # About tng

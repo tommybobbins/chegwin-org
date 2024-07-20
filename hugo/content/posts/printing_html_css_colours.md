@@ -2,7 +2,7 @@
 title: "Printing_html_css_colours"
 date: 2011-06-05T19:55:56+01:00
 draft: false
-type: "post"
+type: post
 ---
 
 Printing out HTML/CSS Colours

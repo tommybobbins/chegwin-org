@@ -1,10 +1,8 @@
-+++
-title = "Splitting an mbox into individual mails"
-date = "2016-02-15"
-author = ""
-showFullContent = false
-type="post"
-+++
+---
+title: "Splitting an mbox into individual mails"
+date: "2016-02-15"
+type: post
+---
 
 # Splitting mbox into individual mails
 

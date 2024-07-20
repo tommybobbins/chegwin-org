@@ -1,8 +1,7 @@
 ---
 title: "Linux"
 date: 2020-03-27T22:32:34Z
-draft: false
-type: "page"
+type: page
 ---
 
 # Linux links

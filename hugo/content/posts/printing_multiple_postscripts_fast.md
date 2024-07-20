@@ -1,15 +1,8 @@
-+++
-title = "Printing multiple PDFs quickly to a postscript printer"
-date = "2014-03-02"
-author = ""
-authorTwitter = "" #do not include @
-cover = ""
-tags = ["", ""]
-keywords = ["", ""]
-description = ""
-showFullContent = false
-type = "post"
-+++
+---
+title: "Printing multiple PDFs quickly to a postscript printer"
+date: "2014-03-02"
+type: post
+---
 
 # Printing PDFs quickly from Linux onto a Postscript compatible printer
 

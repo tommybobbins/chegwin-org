@@ -18,15 +18,16 @@ resource "aws_cloudfront_distribution" "www_s3_distribution" {
   enabled             = true
   is_ipv6_enabled     = true
   default_root_object = "index.html"
+  price_class         = "PriceClass_100"
 
   aliases = ["www.${var.domain_name}", "${var.domain_name}"]
 
-#  custom_error_response {
-#    error_caching_min_ttl = 0
-#    error_code            = 404
-#    response_code         = 200
-#    response_page_path    = "index.html"
-#  }
+  custom_error_response {
+    error_caching_min_ttl = 0
+    error_code            = 404
+    response_code         = 200
+    response_page_path    = "/index.html"
+  }
 
   default_cache_behavior {
     allowed_methods  = ["GET", "HEAD"]

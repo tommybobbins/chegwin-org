@@ -2,7 +2,7 @@
 title: "Terraform AWS CloudFront Static site and S3 bucket"
 date: 2021-06-28T11:35:55+01:00
 draft: false
-type: "post"
+type: post
 ---
 
 # Creating a CloudFront + S3 static site in Terraform

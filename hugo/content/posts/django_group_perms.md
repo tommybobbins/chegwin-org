@@ -1,15 +1,8 @@
-+++
-title = "Using Django group permissions for Object (Row) Level permissions"
-date = "2013-06-16"
-author = ""
-authorTwitter = "" #do not include @
-cover = ""
-tags = ["", ""]
-keywords = ["", ""]
-description = ""
-showFullContent = false
-type="post"
-+++
+---
+title: "Using Django group permissions for Object (Row) Level permissions"
+date: "2013-06-16"
+type: post
+---
 
 # Using Django group permissions for Object (Row) Level permissions
 There are better ways to do row (object) level permissions in Django, but I needed something fairly simple. I wanted Customers to be able to use the Admin interface to correct their own details, but not be able to view the other customers. SuperUsers should be able to see all rows, only users belonging to the correct Group are allowed to edit their details and not see other Customers. This is done by manipulating the Query String.

@@ -1,15 +1,8 @@
-+++
-title = "ESP8266 House of the future"
-date = "2015-11-03"
-author = ""
-authorTwitter = "" #do not include @
-cover = ""
-tags = ["", ""]
-keywords = ["", ""]
-description = ""
-showFullContent = false
-type = "post"
-+++
+---
+title : "ESP8266 House of the future"
+date : "2015-11-03"
+type: post
+---
 
 # Update to the Central Heating System 
 
