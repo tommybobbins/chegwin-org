@@ -5,7 +5,7 @@ languageCode = "en"
 defaultContentLanguage = "en"
 enableEmoji = true
 enableRobotsTXT = true
-uglyURLs = true
+#uglyURLs = true
 #relativeURLs = true
 
 
@@ -29,7 +29,7 @@ uglyURLs = true
   [[menu.main]]
     name = "Posts"
     pre = "<span data-feather='book'></span>"
-    url = "/posts.html"
+    url = "/posts/"
     weight = 2
 
   [[menu.main]]

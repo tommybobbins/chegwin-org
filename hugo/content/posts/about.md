@@ -16,7 +16,7 @@ Born in Buxton, lived the first 18 years of my life in Chapel-in-the-filth.
 
 I relocated to the North West in 2003 and am currently working as a Linux engineer. We live in Ramsbottom, North of Manchester.
 
-- Minimal [CV](/posts/curriculum_vitae_tim_gibbon/). 
+- Minimal [CV](/posts/curriculum_vitae_tim_gibbon.html). 
 - [Thesis source LaTeX](/phd/thesis.tar.gz).
 - [Thesis Data](/phd/gehplus.tar.gz).
 
