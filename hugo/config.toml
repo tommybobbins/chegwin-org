@@ -4,6 +4,7 @@ theme = "gokarna"
 languageCode = "en"
 defaultContentLanguage = "en"
 enableRobotsTXT = true
+pygmentsStyle = "monokai"
 
 [params]
   socialIcons = [
@@ -17,7 +18,6 @@ enableRobotsTXT = true
 [menu]
   [[menu.main]]
     name = "Home"
-    identifier = "home"
     url = "/"
     weight = 1
 
@@ -28,18 +28,18 @@ enableRobotsTXT = true
     weight = 2
 
   [[menu.main]]
+    name = "Tags"
+    identifier = "tags"
+    url = "/tags/"
+    weight = 3
+
+  [[menu.main]]
     name = "About"
     identifier = "about"
     url = "/posts/about/"
-    weight = 3
+    weight = 4
 
   [[menu.main]]
     identifier = "rss"
     url = "/index.xml"
-    weight = 4
-
-#[markup]
-#  [markup.tableOfContents]
-#    startLevel = 1
-#    endLevel = 4
-#    ordered = false
+    weight = 5
