@@ -2,6 +2,7 @@
 title: "Curriculum Vitae - Tim Gibbon"
 date: 2024-07-06T10:40:03Z
 type: "page"
+showTableOfContents: true
 ---
 
 # Tim Gibbon 07977 549 321 tng@chegwin.org

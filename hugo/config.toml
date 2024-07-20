@@ -1,15 +1,9 @@
-baseURL = "https://www.chegwin.org"
+baseURL = "https://www.chegwin.org/"
 title = "Chegwin.Org"
 theme = "gokarna"
 languageCode = "en"
 defaultContentLanguage = "en"
-enableEmoji = true
 enableRobotsTXT = true
-#uglyURLs = true
-#relativeURLs = true
-
-# Choose one of emacs, trac or perldoc
-pygmentsStyle = "monokai"
 
 [params]
   socialIcons = [
