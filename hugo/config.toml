@@ -5,8 +5,10 @@ languageCode = "en"
 defaultContentLanguage = "en"
 enableEmoji = true
 enableRobotsTXT = true
-uglyURLs = true
+#uglyURLs = true
 relativeURLs = true
+
+
 
 [params]
   socialIcons = [
