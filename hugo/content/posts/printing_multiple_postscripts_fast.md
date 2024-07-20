@@ -1,7 +1,7 @@
 ---
 title: "Printing multiple PDFs quickly to a postscript printer"
 date: "2014-03-02"
-type: post
+type: "post"
 ---
 
 # Printing PDFs quickly from Linux onto a Postscript compatible printer

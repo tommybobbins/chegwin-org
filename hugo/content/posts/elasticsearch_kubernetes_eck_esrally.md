@@ -2,7 +2,7 @@
 title: "Elasticsearch on Kubernetes benchmarking with esrally"
 date: 2023-08-20T10:59:57+01:00
 draft: false
-type: post
+type: "post"
 ---
 
 # Elasticsearch on Kubernetes (ECK) worked example with terraform, GKE,  podman & esrally

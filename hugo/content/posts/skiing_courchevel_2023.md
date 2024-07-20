@@ -2,7 +2,7 @@
 title: "Skiing Courchevel 2023"
 date: "2023-01-08"
 author: "Tim Gibbon"
-type: post
+type: "post"
 ---
 
 # Skiing Courchevel 2023

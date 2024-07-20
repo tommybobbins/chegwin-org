@@ -1,7 +1,7 @@
 ---
 title: "HOWTO Get to Vesuvius using public transport"
 date: 2005-11-05T09:54:10Z
-type: post
+type: "post"
 ---
 # Howto travel to Vesuvius by train and bus from the Circumvesuvia train line
 

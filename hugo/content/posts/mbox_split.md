@@ -1,7 +1,7 @@
 ---
 title: "Splitting an mbox into individual mails"
 date: "2016-02-15"
-type: post
+type: "post"
 ---
 
 # Splitting mbox into individual mails

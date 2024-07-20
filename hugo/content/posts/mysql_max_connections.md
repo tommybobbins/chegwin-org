@@ -1,7 +1,7 @@
 ---
 title: "Mysql_max_connections"
 date: 2020-04-29T20:58:12+01:00
-type: post
+type: "post"
 ---
 
 # Calculating the Max connections in MySQL programmatically in one pass

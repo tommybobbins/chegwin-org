@@ -2,7 +2,7 @@
 title: "Prefer IPv4 routing over IPv6"
 date: 2020-04-07T20:13:18+01:00
 draft: false
-type: post
+type: "post"
 ---
 
 If you have an IPv4 and and IPv6 default gateway, but you wish for mail to be routed via the IPv4 network instead of the IPv4 then create a file /etc/gai.conf which contains:

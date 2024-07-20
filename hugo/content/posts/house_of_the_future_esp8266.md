@@ -1,7 +1,7 @@
 ---
 title : "ESP8266 House of the future"
 date : "2015-11-03"
-type: post
+type: "post"
 ---
 
 # Update to the Central Heating System 

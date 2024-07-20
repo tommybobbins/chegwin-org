@@ -1,7 +1,7 @@
 ---
 title: "Network_diagnostics_pitft"
 date: 2024-04-07T16:20:16+01:00
-type: post
+type: "post"
 ---
 
 # Network Diagnostics PiTFT

@@ -1,7 +1,7 @@
 ---
 title: "Using Django group permissions for Object (Row) Level permissions"
 date: "2013-06-16"
-type: post
+type: "post"
 ---
 
 # Using Django group permissions for Object (Row) Level permissions

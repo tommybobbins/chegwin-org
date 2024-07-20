@@ -2,7 +2,7 @@
 title: "Elasticsearch 6 backups via snapshots for CentOS 7.0"
 date: 2021-02-21T15:42:18Z
 draft: false
-type: post
+type: "post"
 ---
 
 # Elasticsearch 6.2 backups on CentOS 7/RHEL 7

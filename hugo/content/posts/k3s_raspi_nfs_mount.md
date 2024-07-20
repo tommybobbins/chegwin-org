@@ -1,7 +1,7 @@
 ---
 title: "K3S NFS Root howto"
 date: 2021-02-07T22:28:45Z
-type: post
+type: "post"
 ---
 
 # Using K3S and Raspberry Pi Network booting (no SD Cards).

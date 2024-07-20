@@ -2,7 +2,7 @@
 title: "Raspberrypi_nfsboot"
 date: 2020-05-30T17:57:12+01:00
 draft: false
-type: post
+type: "post"
 ---
 
 # Booting a Raspberry Pi from SD card, root filesystem is NFS

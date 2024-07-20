@@ -2,7 +2,7 @@
 title: "PiPoEGUSCA - RaspberryPi Power over Ethernet Garden Ultrasonic Squirter Camera Alarm"
 date: "2013-10-15"
 showFullContent: false
-type: post
+type: "post"
 ---
 
 # PiPoEGUSCA - RaspberryPi Power over Ethernet Garden Ultrasonic Squirter Camera Alarm
