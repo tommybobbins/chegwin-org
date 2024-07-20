@@ -29,19 +29,13 @@ uglyURLs = true
   [[menu.main]]
     name = "Posts"
     pre = "<span data-feather='book'></span>"
-    url = "/posts/"
+    url = "/posts.html"
     weight = 2
 
   [[menu.main]]
-    name = "Projects"
-    pre = "<span data-feather='code'></span>"
-    url = "/projects/"
-    weight = 3
-
-  [[menu.main]]
-    name = "Tags"
+    name = "About"
     pre = "<span data-feather='tag'></span>"
-    url = "/tags/"
+    url = "/posts/about.html"
     weight = 4
 
   [[menu.main]]
