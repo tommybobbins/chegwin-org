@@ -25,12 +25,12 @@ jobs:
           hugo-version: latest
           extended: true
 
-      - uses: actions/cache@v4
-        with:
-          path: /tmp/hugo_cache_s3
-          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
-          restore-keys: |
-            ${{ runner.os }}-hugomod-
+#      - uses: actions/cache@v4
+#        with:
+#          path: /tmp/hugo_cache_s3
+#          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
+#          restore-keys: |
+#            ${{ runner.os }}-hugomod-
 
 
       - name: Build

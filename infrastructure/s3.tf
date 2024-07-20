@@ -10,13 +10,6 @@ resource "aws_s3_bucket_ownership_controls" "example" {
   }
 }
 
-resource "aws_s3_object" "object" {
-  bucket = aws_s3_bucket.www.bucket
-  key    = "hello.txt"
-  source = "hello.txt"
-  etag   = filemd5("hello.txt")
-}
-
 resource "aws_s3_bucket_public_access_block" "www" {
   bucket = aws_s3_bucket.www.bucket
 
