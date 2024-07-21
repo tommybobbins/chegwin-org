@@ -1,45 +1,35 @@
 baseURL = "https://www.chegwin.org/"
-title = "Chegwin.Org"
-theme = "gokarna"
-languageCode = "en"
 defaultContentLanguage = "en"
-enableRobotsTXT = true
-pygmentsStyle = "monokai"
+languageCode = "en"
 
-[params]
-  socialIcons = [
-    {name = "github", url = "https://github.com/tommybobbins"},
-    {name = "linkedin", url = "https://www.linkedin.com/in/tim-gibbon-b53a733"},
-    {name = "email", url = "mailto:tng@chegwin.org"}
-  ]
-  metaKeywords = ["blog", "Tim Gibbon", "hugo"]
-  showPostsOnHomePage = "recent"
+title = "Chegwin.Org"
+
+theme = "gokarna"
+
+# Automatically generate robots.txt
+enableRobotsTXT = true
 
 [menu]
   [[menu.main]]
-    name = "Home"
-    url = "/"
+    # Unique identifier for a menu item
+    identifier = "posts"
+    url = "/posts/"
+    pre  = ""
+    post = ""
+    # Display name
+    name = "Posts"
+    # Weights are used to determine the ordering
     weight = 1
 
   [[menu.main]]
-    name = "Posts"
-    identifier = "posts"
-    url = "/posts/"
-    weight = 2
-
-  [[menu.main]]
-    name = "Tags"
     identifier = "tags"
+    name = "Tags"
     url = "/tags/"
+    weight = 2
+    
+  [[menu.main]]
+    identifier = "github"
+    url = "https://github.com/tommybobbins"
     weight = 3
-
-  [[menu.main]]
-    name = "About"
-    identifier = "about"
-    url = "/posts/about/"
-    weight = 4
-
-  [[menu.main]]
-    identifier = "rss"
-    url = "/index.xml"
-    weight = 5
+    # We use feather-icons: https://feathericons.com/
+    pre = "<span data-feather='github'></span>"

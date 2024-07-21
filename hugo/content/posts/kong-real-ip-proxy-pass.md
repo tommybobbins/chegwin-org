@@ -1,9 +1,9 @@
 ---
-title : "EKS Kong Gateway Real IP via ProxyProtocol v2 and AWS Load Balancer Controller "
-date : "2023-05-29"
-author : "Tim Gibbon"
-tags : ["eks","k8s", "ingress","aws-load-balancer-controller","terraform","helm","values.yaml","kong","proxy","protocol","l4"]
-keywords : ["eks","k8s", "ingress","aws-load-balancer-controller","terraform","helm","values.yaml","kong","proxy","protocol","l4"]
+title: "EKS Kong Gateway Real IP via ProxyProtocol v2 and AWS Load Balancer Controller "
+date: "2023-05-29"
+author: "Tim Gibbon"
+tags: ["eks","k8s", "ingress","aws-load-balancer-controller","terraform","helm","values.yaml","kong","proxy","protocol","l4"]
+keywords: ["eks","k8s", "ingress","aws-load-balancer-controller","terraform","helm","values.yaml","kong","proxy","protocol","l4"]
 description : "Helm chart values.yaml for finding the Real IP in kong using ProxyProtocol with AWS Load Balancer Controller in L4"
 type: "post"
 showTableOfContents: true

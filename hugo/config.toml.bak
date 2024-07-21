@@ -1,0 +1,45 @@
+baseURL = "https://www.chegwin.org/"
+title = "Chegwin.Org"
+theme = "gokarna"
+languageCode = "en"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+pygmentsStyle = "monokai"
+
+[params]
+  socialIcons = [
+    {name = "github", url = "https://github.com/tommybobbins"},
+    {name = "linkedin", url = "https://www.linkedin.com/in/tim-gibbon-b53a733"},
+    {name = "email", url = "mailto:tng@chegwin.org"}
+  ]
+  metaKeywords = ["blog", "Tim Gibbon", "hugo"]
+  showPostsOnHomePage = "recent"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Posts"
+    identifier = "posts"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Tags"
+    identifier = "tags"
+    url = "/tags/"
+    weight = 3
+
+  [[menu.main]]
+    name = "About"
+    identifier = "about"
+    url = "/posts/about/"
+    weight = 4
+
+  [[menu.main]]
+    identifier = "rss"
+    url = "/index.xml"
+    weight = 5
