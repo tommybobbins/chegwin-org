@@ -1,0 +1,35 @@
+baseURL = "https://www.chegwin.org/"
+defaultContentLanguage = "en"
+languageCode = "en"
+
+title = "Chegwin.Org"
+
+theme = "gokarna"
+
+# Automatically generate robots.txt
+enableRobotsTXT = true
+
+[menu]
+  [[menu.main]]
+    # Unique identifier for a menu item
+    identifier = "posts"
+    url = "/posts/"
+    pre  = ""
+    post = ""
+    # Display name
+    name = "Posts"
+    # Weights are used to determine the ordering
+    weight = 1
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+    
+  [[menu.main]]
+    identifier = "github"
+    url = "https://github.com/tommybobbins"
+    weight = 3
+    # We use feather-icons: https://feathericons.com/
+    pre = "<span data-feather='github'></span>"
