@@ -16,27 +16,33 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
+          submodules: recursive  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+    - name: Read .env
+      id: hugo-version
+      run: |
+        . ./.env
+        echo "HUGO_VERSION=${HUGO_VERSION}" >> "${GITHUB_OUTPUT}"
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: latest
+          hugo-version: '${{ steps.hugo-version.outputs.HUGO_VERSION }}'
           extended: true
 
-      - uses: actions/cache@v4
-        with:
-          path: /tmp/hugo_cache_s3
-          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
-          restore-keys: |
-            ${{ runner.os }}-hugomod-
+#      - uses: actions/cache@v4
+#        with:
+#          path: /tmp/hugo_cache_s3
+#          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
+#          restore-keys: |
+#            ${{ runner.os }}-hugomod-
 
 
       - name: Build
         run: |
              cd hugo 
-             hugo --config config.toml
+             hugo -D --config config.toml
 
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
