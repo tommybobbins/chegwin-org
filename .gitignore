@@ -1,6 +1,7 @@
 # Local .terraform directories
 **/.terraform/*
 **/hugo/public/*
+**/hugo/.hugo_build.lock
 
 # .tfstate files
 *.tfstate
