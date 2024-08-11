@@ -53,8 +53,7 @@ showTableOfContents: true
 acle, Redis.
 - Bespoke Linux Distribution creation.
 - DBS checked.
-- ITIL - Change control, auditing and reporting. SOC2 and ISO27001 au-
-diting.
+- ITIL - Change control, auditing and reporting. SOC2 and ISO27001 auditing and compliance.
 ## Education
 - Kubernetes: Certified Kubernetes Security Specialist.
 - Kubernetes: Certified Kubernetes Application Developer. 
