@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitae - Tim Gibbon"
-date: 2024-07-06T10:40:03Z
+date: 2024-08-11T20:40:03Z
 type: "page"
 showTableOfContents: true
 ---
@@ -56,16 +56,17 @@ acle, Redis.
 - ITIL - Change control, auditing and reporting. SOC2 and ISO27001 au-
 diting.
 ## Education
-- Certified Argo Project Associate.
 - Kubernetes: Certified Kubernetes Security Specialist.
 - Kubernetes: Certified Kubernetes Application Developer. 
 - Kubernetes: Certified Kubernetes Adminstrator.
 - HashiCorp Certified: Terraform Associate. 
-- AWS: Certified Solutions Architect.
-- AWS: Certified SysOps Administrator.
-- AWS: Certified Developer.
+- AWS: Certified Solutions Architect Professional.
+- AWS: Certified Solutions Architect Associate.
+- AWS: Certified SysOps Administrator Associate.
+- AWS: Certified Developer Associate.
 - GCP: Professional Cloud Architect.
 - GCP: Associate Cloud Engineer. 
+- Certified Argo Project Associate.
 - Linux: Red Hat Certified Engineer. 
 - PhD: Laser Photofragment Spectroscopy of Diatomic Molecular Ions.
 - BSc: Physics.
