@@ -1,9 +1,10 @@
 ---
 title: "EKS Cluster + Gateway API using Tofu/Terraform"
-date: 2024-09-15T08:40:03Z
-type: "page"
+date: 2024-09-15T08:40:03+01:00
+type: "post"
 showTableOfContents: true
 ---
+
 # Streamlining EKS Cluster + Ingress Setup with Tofu/Terraform and GitHub Actions
 
 As Kubernetes continues to gain popularity as the de facto standard for container orchestration, managing and deploying clusters in a consistent and repeatable manner becomes increasingly important. In this blog post, we'll explore a minimal and streamlined approach to creating and managing an Amazon Elastic Kubernetes Service (EKS) cluster on AWS using Infrastructure as Code (IaC) principles, leveraging Terraform configurations and GitHub Actions workflows. Additionally, the repository provides a setup for deploying a Gateway API ingress using Kong or NGINX Fabric Gateway.
