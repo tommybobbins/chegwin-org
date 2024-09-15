@@ -3,6 +3,7 @@ title: "EKS Cluster + Gateway API using Tofu/Terraform"
 date: 2024-09-15T08:40:03Z
 type: "page"
 showTableOfContents: true
+tags: ["eks","k8s", "ingress","aws-load-balancer-controller","terraform","tofu","github actions","helm","values.yaml","kong","l4","nginx-fabric"]
 ---
 # Streamlining EKS Cluster + Ingress Setup with Tofu/Terraform and GitHub Actions
 
