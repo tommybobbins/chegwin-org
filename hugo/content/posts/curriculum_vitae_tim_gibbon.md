@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitae - Tim Gibbon"
-date: 2024-08-11T19:40:03Z
+date: 2024-09-15T08:40:03Z
 type: "page"
 showTableOfContents: true
 ---
@@ -9,6 +9,10 @@ showTableOfContents: true
 ## Professional Experience
 
 ### Jul 2024 - Current Platform Engineer, AND Digital
+
+- AWS Professional Solutions Architect qualification.
+- GCP Professional Cloud Architect qualification.
+- GCP Professional Data Engineer qualification.
 
 ### Jul 2022 - Jul 2024 Senior DevOps Engineer, Missionlabs/Gammalabs
 
@@ -44,13 +48,12 @@ showTableOfContents: true
 ## Relevant Skills
 - AWS/GCP.
 - Kubernetes, EKS, GKE.
-- Python, Golang (learning!), bash.
+- Python, Golang (learning), bash.
 - Virtualisaton and Cross compilation.
 - Terraform and Cloudformation.
 - Kepner Tregoe Analytical troubleshooting.
 - Performance and monitoring: Grafana, Prometheus, Thanos, Cloudwatch.
-- Database Administration: Redshift, Snowflake, MySQL, PostgreSQL, Or-
-acle, Redis.
+- Database Administration: Redshift, Snowflake, MySQL, PostgreSQL, Oracle, Redis.
 - Bespoke Linux Distribution creation.
 - DBS checked.
 - ITIL - Change control, auditing and reporting. SOC2 and ISO27001 auditing and compliance.
