@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitae - Tim Gibbon"
-date: 2024-09-15T08:40:03Z
+date: 2024-10-11T17:40:03Z
 type: "page"
 showTableOfContents: true
 ---
@@ -10,9 +10,11 @@ showTableOfContents: true
 
 ### Jul 2024 - Current Platform Engineer, AND Digital
 
-- AWS Professional Solutions Architect qualification.
-- GCP Professional Cloud Architect qualification.
-- GCP Professional Data Engineer qualification.
+- NHS Upgrade and Patching project.
+- AWS Professional Solutions Architect.
+- GCP Professional Cloud Architect.
+- GCP Professional Data Engineer.
+- AWS Security Speciality.
 
 ### Jul 2022 - Jul 2024 Senior DevOps Engineer, Missionlabs/Gammalabs
 
@@ -63,6 +65,7 @@ showTableOfContents: true
 - Kubernetes: Certified Kubernetes Adminstrator.
 - HashiCorp Certified: Terraform Associate. 
 - AWS: Certified Solutions Architect Professional.
+- AWS: AWS Certified Security – Specialty.
 - AWS: Certified Solutions Architect Associate.
 - AWS: Certified SysOps Administrator Associate.
 - AWS: Certified Developer Associate.
