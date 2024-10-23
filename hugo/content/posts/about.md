@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: 2020-03-27T20:42:01Z
+date: 2024-10-23T20:42:01Z
 type: "page"
 ---
 
@@ -14,7 +14,7 @@ Born in Buxton, lived the first 18 years of my life in Chapel-in-the-filth.
 
 ## Now
 
-I relocated to the North West in 2003 and am currently working as a Linux engineer. We live in Ramsbottom, North of Manchester.
+I relocated to the North West in 2003 and am currently working as a Platform Engineer. I live in Ramsbottom, North of Manchester.
 
 - Minimal [CV](/posts/curriculum_vitae_tim_gibbon/). 
 - [Thesis source LaTeX](/phd/thesis.tar.gz).
