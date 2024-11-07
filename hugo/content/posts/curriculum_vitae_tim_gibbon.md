@@ -10,11 +10,12 @@ showTableOfContents: true
 
 ### Jul 2024 - Current Platform Engineer, AND Digital
 
-- NHS Upgrade and Patching project.
+- NHS Server Remediation.
 - AWS Professional Solutions Architect.
 - GCP Professional Cloud Architect.
 - GCP Professional Data Engineer.
 - AWS Security Speciality.
+- AWS Data Engineer.
 
 ### Jul 2022 - Jul 2024 Senior DevOps Engineer, Missionlabs/Gammalabs
 
@@ -66,6 +67,7 @@ showTableOfContents: true
 - HashiCorp Certified: Terraform Associate. 
 - AWS: Certified Solutions Architect Professional.
 - AWS: AWS Certified Security – Specialty.
+- AWS: AWS Certified Data Engineer - Associate.
 - AWS: Certified Solutions Architect Associate.
 - AWS: Certified SysOps Administrator Associate.
 - AWS: Certified Developer Associate.
