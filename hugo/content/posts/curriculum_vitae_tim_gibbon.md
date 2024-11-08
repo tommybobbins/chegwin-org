@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitae - Tim Gibbon"
-date: 2024-10-11T17:40:03Z
+date: 2024-11-07T17:40:03Z
 type: "page"
 showTableOfContents: true
 ---
@@ -8,7 +8,7 @@ showTableOfContents: true
 # Tim Gibbon 07977 549 321 tng@chegwin.org
 ## Professional Experience
 
-### Jul 2024 - Current Platform Engineer, AND Digital
+### *Jul 2024 - Current*  Senior Platform Engineer, AND Digital
 
 - NHS Server Remediation.
 - AWS Professional Solutions Architect.
@@ -17,7 +17,7 @@ showTableOfContents: true
 - AWS Security Speciality.
 - AWS Data Engineer.
 
-### Jul 2022 - Jul 2024 Senior DevOps Engineer, Missionlabs/Gammalabs
+### *Jul 2022 - Jul 2024* Senior DevOps Engineer, Missionlabs/Gammalabs
 
 - Terraform build and deployment to 30 AWS/3 GCP Accounts (bitbucket pipelines).
 - 3 major projects delivered within timescales, budget and to 99.98% annual availability.
@@ -30,7 +30,7 @@ showTableOfContents: true
 - Trivy deployment, allowing developers to identify security vulnerabilities during development.
 - Zero downtime Upgrades of 30 Kubernetes (EKS) clusters from versions 1.21 through 1.30.
 
-### Jul 2021 - Jul 2022 Senior DevOps Engineer/Engineering Manager, Peak
+### *Jul 2021 - Jul 2022* Senior DevOps Engineer/Engineering Manager, Peak
 
 - CloudFormation and Terraform.
 - Database/Datalake Administration.
@@ -39,14 +39,14 @@ showTableOfContents: true
 - Kubernetes (EKS).
 - Cost optimisation
 
-### 2014 - 2021 Senior Linux Engineer, UKFast Ltd.
-### 2007 - 2014 Partner, Lunarlite LLP.
-### 2004 - 2006 Senior UNIX Engineer, Orange.
-### 2003 - 2004 Customer Services Engineer, Tower Technology/Vignette IDM.
-### 2001 - 2003 UNIX Technical specialist, GSK.
-### 2000 - 2001 Contractor, Equities Technology, Goldman Sachs.
-### 1999 - 2000 System Administrator, Crown Digital.
-### 1998 - 1999 UNIX Administrator, Investment Property Databank Ltd.
+### *2014 - 2021* Senior Linux Engineer, UKFast Ltd.
+### *2007 - 2014* Partner, Lunarlite LLP.
+### *2004 - 2006* Senior UNIX Engineer, Orange.
+### *2003 - 2004* Customer Services Engineer, Tower Technology/Vignette IDM.
+### *2001 - 2003* UNIX Technical specialist, GSK.
+### *2000 - 2001* Contractor, Equities Technology, Goldman Sachs.
+### *1999 - 2000* System Administrator, Crown Digital.
+### *1998 - 1999* UNIX Administrator, Investment Property Databank Ltd.
 
 ## Relevant Skills
 - AWS/GCP.
