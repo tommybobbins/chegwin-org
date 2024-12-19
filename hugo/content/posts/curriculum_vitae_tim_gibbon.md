@@ -16,6 +16,7 @@ showTableOfContents: true
 - GCP Professional Data Engineer.
 - AWS Security Speciality.
 - AWS Data Engineer.
+- AWS Certified AI Practitioner.
 
 ### *Jul 2022 - Jul 2024* Senior DevOps Engineer, Missionlabs/Gammalabs
 
@@ -71,6 +72,7 @@ showTableOfContents: true
 - AWS: Certified Solutions Architect Associate.
 - AWS: Certified SysOps Administrator Associate.
 - AWS: Certified Developer Associate.
+- AWS: Certified AI Practitioner.
 - GCP: Professional Cloud Architect.
 - GCP: Associate Cloud Engineer. 
 - Certified Argo Project Associate.
