@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitae - Tim Gibbon"
-date: 2024-11-07T17:40:03Z
+date: 2025-03-15T17:40:03Z
 type: "page"
 showTableOfContents: true
 ---
@@ -61,6 +61,7 @@ showTableOfContents: true
 - Bespoke Linux Distribution creation.
 - DBS checked.
 - ITIL - Change control, auditing and reporting. SOC2 and ISO27001 auditing and compliance.
+
 ## Education
 - Kubernetes: Certified Kubernetes Security Specialist.
 - Kubernetes: Certified Kubernetes Application Developer. 
@@ -79,10 +80,12 @@ showTableOfContents: true
 - Linux: Red Hat Certified Engineer. 
 - PhD: Laser Photofragment Spectroscopy of Diatomic Molecular Ions.
 - BSc: Physics.
+
 ## Other Interests
 - Vinyl collector/gig goer.
 - Fiction.
 - Skiing/Outdoor pursuits.
 - Founder member of RossLUG.
+
 ## References
 Available upon request.
