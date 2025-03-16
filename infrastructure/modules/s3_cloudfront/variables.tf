@@ -15,11 +15,5 @@ variable "github_repository" {
 variable "create_github_oidc" {
   type = bool
   description = "Create Github OIDC"
-  default = false 
+  default = false
 }
-
-
-#variable "site_content" {
-#  description = "Path to the content directory"
-#  default     = "/tng_nfs/HOMER/sites/ramblers/public/"
-#}

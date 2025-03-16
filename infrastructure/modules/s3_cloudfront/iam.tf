@@ -29,17 +29,27 @@ resource "aws_iam_user_policy_attachment" "s3_write_access" {
   policy_arn = aws_iam_policy.s3_write_access.arn
 }
 
+locals {
+
+github_name = replace("github-oidc-${var.domain_name}",".","-")
+
+}
+
+data "aws_iam_openid_connect_provider" "github" {
+  count = var.create_github_oidc ? 0 : 1
+  url = "https://token.actions.githubusercontent.com"
+}
 
 module "github-oidc" {
+ oidc_provider_arn = var.create_github_oidc ? null : data.aws_iam_openid_connect_provider.github[0].arn 
  source  = "terraform-module/github-oidc-provider/aws"
  version = "~> 1"
-
- create_oidc_provider = true
+ role_name = local.github_name
+ create_oidc_provider = var.create_github_oidc
  create_oidc_role     = true
 
  repositories              = [var.github_repository]
  oidc_role_attach_policies = [aws_iam_policy.s3_write_access.arn]
-#  oidc_role_attach_policies = ["arn:aws:iam::aws:policy/AmazonS3FullAccess"]
 }
 
 

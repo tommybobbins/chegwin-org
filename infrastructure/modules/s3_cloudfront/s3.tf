@@ -1,6 +1,6 @@
 ####
 resource "aws_s3_bucket" "www" {
-  bucket = "www.${var.domain_name}"
+  bucket_prefix = "www.${var.domain_name}"
 }
 
 resource "aws_s3_bucket_ownership_controls" "example" {

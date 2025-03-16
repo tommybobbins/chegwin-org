@@ -1,25 +1,20 @@
-# This file is maintained automatically by "terraform init".
+# This file is maintained automatically by "tofu init".
 # Manual edits may be lost in future updates.
 
-provider "registry.terraform.io/hashicorp/aws" {
+provider "registry.opentofu.org/hashicorp/aws" {
   version     = "5.59.0"
   constraints = "5.59.0"
   hashes = [
-    "h1:pe+3OIuutpyF0eSRzhv2CEh1Getm8xNBSFoeTA6AGlA=",
-    "zh:077f41a15057d01d833d7438322adf9b507d17ac0c8e1287430a305b6e609775",
-    "zh:130b112c85b67413bc65e95e5927188d8e41b45abd75350690b93d95771a587c",
-    "zh:16e97f1af67a5d4c6bf4f2df824a6a332b446be4516dd85a2e097317c959a174",
-    "zh:1cd7b0946eaf0fb11090710e9c774d22d90de0ca4516485253be96e332ebaf73",
-    "zh:2591d8a269014fb59111793cb8a175aafa12e370cd856fe2522577efbb72e5be",
-    "zh:3db5387ecc7da4e6a55a34877ea426ae87d10238bdbdf284a52e16b4be83302c",
-    "zh:78169400a85912d7f05fe99d4f3ba9a56871411442bdc133083dd657b18fae4e",
-    "zh:9b12af85486a96aedd8d7984b0ff811a4b42e3d88dad1a3fb4c0b580d04fa425",
-    "zh:ad93fedbf1d2694faab6d793c6697ff5732449cdebacaa49acf6452c0c8e2ea0",
-    "zh:b8a2884858dde9d204dc6855903e3078a1c402485ae85b41c28e667f99a2a777",
-    "zh:bd3d4bd51172d08c0df277673a25fb3f0818ef47ef9f491b0c41e880b1dedce3",
-    "zh:d8e132bcafee2e69e21173fac409e4b99d8c81d60a7d25c58c379c67067dbf36",
-    "zh:eee5113ff29a42c5a75c83e9853e99a9b5c0ed066e36d6fe251083b19d38c7eb",
-    "zh:f0d8bcdb01d0fa0c9ed2ca8c198d4f11aabfd9d42fa239286b65ddcc6f606dfd",
-    "zh:f8ae46d14ec54c275e20f71d052f1b6af0cf948819b0667016045a6244edf292",
+    "h1:HAS1wj4PsPE1agSfApyb/XL4GeechjPAIoHLr3li9Kg=",
+    "zh:009f2bdf503c309c8f9d70abf76fc513dbe1d8c5e2e2cad123f19f9e2a924f57",
+    "zh:0d841b0c91b24f42321c0d7d3d3b3b21396cfc4629e750e9d70d3f69e5f38d19",
+    "zh:3965e019e5ceec1054f4620c38ed94300772eefa164bfbc73017aca7fda156b9",
+    "zh:3ed1d557c5666958be5c455aa8793424c3e8104c7285731c641531a70b71459b",
+    "zh:4149d940e3ae1c328dd4462541733dca2f5ed9864e9d2aae01dd05d72cb5f78b",
+    "zh:4efd07fcd45a877018653794f323af3c293b828d231710db25baf3b5593146ab",
+    "zh:72ac1adadd584f67affc9ea460f2122a5f05f35d05a3fd9a4c3cfca7c43e6e2e",
+    "zh:c885e6022a2d9b9e67ec7f239b273bfbe3561422156ade2fab9c9bb7faafaee6",
+    "zh:cbfa91f4944226ee20a12654b106a6a44ee21e542c994ba6370b09f91a04742a",
+    "zh:fa10e1f59949b1a0d262b4665851b8e9b6c07f065e2b1a8333f04a082e74924f",
   ]
 }
