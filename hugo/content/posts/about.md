@@ -14,7 +14,7 @@ Born in Buxton, lived the first 18 years of my life in Chapel-in-the-filth.
 
 ## Now
 
-I relocated to the North West in 2003 and am currently working as a Platform Engineer. I live in Ramsbottom, North of Manchester.
+I relocated to the North West in 2003 and am currently working on something special. I live in Ramsbottom, North of Manchester.
 
 - Minimal [CV](/posts/curriculum_vitae_tim_gibbon/). 
 - [Thesis source LaTeX](/phd/thesis.tar.gz).

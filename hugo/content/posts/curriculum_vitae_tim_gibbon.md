@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitae - Tim Gibbon"
-date: 2025-03-15T17:40:03Z
+date: 2025-03-23T17:40:03Z
 type: "page"
 showTableOfContents: true
 ---
@@ -8,7 +8,9 @@ showTableOfContents: true
 # Tim Gibbon 07977 549 321 tng@chegwin.org
 ## Professional Experience
 
-### *Jul 2024 - Current*  Senior Platform Engineer, AND Digital
+### *Mar 2025 - Current*  Engineer, Stealth Startup
+
+### *Jul 2024 - Mar 2025*  Senior Platform Engineer, AND Digital
 
 - NHS Server Remediation.
 - AWS Professional Solutions Architect.
