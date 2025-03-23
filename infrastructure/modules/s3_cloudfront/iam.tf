@@ -1,6 +1,6 @@
-resource "aws_iam_user" "s3_write_access" {
-  name = "${split(".",var.domain_name)[0]}-bucket-write-role"
-}
+#resource "aws_iam_user" "s3_write_access" {
+#  name = "${split(".",var.domain_name)[0]}-bucket-write-role"
+#}
 
 data "aws_iam_policy_document" "s3_write_access" {
   statement {
@@ -24,10 +24,10 @@ resource "aws_iam_policy" "s3_write_access" {
   policy = data.aws_iam_policy_document.s3_write_access.json
 }
 
-resource "aws_iam_user_policy_attachment" "s3_write_access" {
-  user       = aws_iam_user.s3_write_access.name
-  policy_arn = aws_iam_policy.s3_write_access.arn
-}
+#resource "aws_iam_user_policy_attachment" "s3_write_access" {
+#  user       = aws_iam_user.s3_write_access.name
+#  policy_arn = aws_iam_policy.s3_write_access.arn
+#}
 
 locals {
 
