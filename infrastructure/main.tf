@@ -4,7 +4,6 @@ module "website" {
   # Common parameters you might want to configure
   domain_name       = var.domain_name
   github_repository = var.github_repository
-  create_github_oidc = var.create_github_oidc
 
   common_tags = {
     Environment = "production"

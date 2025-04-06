@@ -12,8 +12,8 @@ variable "github_repository" {
   description = "The github repository that runs the actions."
 }
 
-variable "create_github_oidc" {
-  type = bool
-  description = "Create Github OIDC"
-  default = false
+variable "aws_region" {
+  type = string
+  description = "AWS Region to create assets in"
+  default = "us-east-1"
 }
