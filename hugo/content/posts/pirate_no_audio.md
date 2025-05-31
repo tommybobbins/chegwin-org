@@ -1,6 +1,6 @@
 ---
 title: "No audio from Pirate Audio (Debian Bookworm)"
-date: 2025-05-31T11:26:01Z
+date: 2025-05-31T11:06:01Z
 type: "page"
 showTableOfContents: true
 ---
