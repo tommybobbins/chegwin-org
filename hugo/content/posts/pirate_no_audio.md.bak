@@ -1,12 +1,9 @@
 ---
 title: "No audio from Pirate Audio (Debian Bookworm)"
-date: "2025-05-31"
-author: "Tim Gibbon"
-tags: ["sound","pulseaudio", "PiZero","PirateAudio"]
-keywordss: ["sound","pulseaudio", "PiZero","PirateAudio"]
-description : "Pirate Audio No sound"
-type: "post"
+date: "2025-05-31T10:40:03"
+type: "page"
 showTableOfContents: true
+draft: false
 ---
 
 # Introduction
