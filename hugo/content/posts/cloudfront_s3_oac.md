@@ -1,30 +1,26 @@
+---
+title: "Cloudfront with Origin Access Control, S3 bucket and terraform/tofu"
+date: "2025-06-28"
+author: "Tim Gibbon"
+tags: ["cloudfront","oac","terraform","tofu"]
+keywordss: ["cloudfront","oac","terraform","tofu"]
+description : "Raging against the lack of recipes: Cloudfront OAC and S3 bucket configuration, a working example"
+type: "post"
+showTableOfContents: true
+---
+
+# Introduction
+
+I've been struggling to find a simple working example for using Cloudfront with S3 buckets and OAC. Here's my working example. The full code can be found in [github](https://github.com/tommybobbins/chegwin-org/).
+
+
+```
 locals {
-  region      = var.aws_region
-  domain_name = var.domain_name
+  region      = "us-east-1"
+  domain_name = "mysite.com"
   subdomain   = "www"
 }
 
-
-
-#############
-# S3
-#############
-module "website" {
-  source  = "terraform-aws-modules/s3-bucket/aws"
-  version = "~> 5.0.2"
-
-  bucket_prefix = replace("www.${var.domain_name}","/\\W/","")
-  attach_policy = true
-  policy        = data.aws_iam_policy_document.ui_bucket_policy.json
-
-  block_public_policy = true
-  restrict_public_buckets = true
-
-  website = {
-    index_document = "index.html"
-    error_document = "index.html"
-  }
-}
 
 #############
 # Cloudfront
@@ -86,3 +82,5 @@ custom_error_response = [
 ]
 
 }
+
+```
