@@ -42,7 +42,7 @@ module "cdn" {
 
   create_origin_access_control = true
    origin_access_control = {
-    "s3_oac_${local.subdomain}" = {
+    "s3_oac_${local.subdomain}${local.domain_name}" = {
       description      = "CloudFront access to S3"
       origin_type      = "s3"
       signing_behavior = "always"
@@ -53,7 +53,7 @@ module "cdn" {
   origin = {
    s3_oac = { 
    domain_name = module.website.s3_bucket_bucket_regional_domain_name
-   origin_access_control = "s3_oac_${local.subdomain}"
+   origin_access_control = "s3_oac_${local.subdomain}${local.domain_name}"
    }
   }
 
