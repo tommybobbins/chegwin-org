@@ -2,27 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/1_postcards.html</loc>
+    <loc>http://localhost:42023/1_postcards.html</loc>
   </url><url>
-    <loc>https://example.org/2_shanghai.html</loc>
+    <loc>http://localhost:42023/2_shanghai.html</loc>
   </url><url>
-    <loc>https://example.org/3_stanleys_school_letters.html</loc>
+    <loc>http://localhost:42023/3_stanleys_school_letters.html</loc>
   </url><url>
-    <loc>https://example.org/4_stanley_and_yvonne_as_young_adults.html</loc>
+    <loc>http://localhost:42023/4_stanley_and_yvonne_as_young_adults.html</loc>
   </url><url>
-    <loc>https://example.org/5_stanley_and_yvonne_married_stanley_in_the_raf_ww2.html</loc>
+    <loc>http://localhost:42023/5_stanley_and_yvonne_married_stanley_in_the_raf_ww2.html</loc>
   </url><url>
-    <loc>https://example.org/6_sports.html</loc>
+    <loc>http://localhost:42023/6_sports.html</loc>
   </url><url>
-    <loc>https://example.org/7_family_man.html</loc>
+    <loc>http://localhost:42023/7_family_man.html</loc>
   </url><url>
-    <loc>https://example.org/appendix_family_tree.html</loc>
+    <loc>http://localhost:42023/appendix_family_tree.html</loc>
   </url><url>
-    <loc>https://example.org/</loc>
-    <lastmod>2025-08-24T00:00:00+02:00</lastmod>
+    <loc>http://localhost:42023/imprint.html</loc>
   </url><url>
-    <loc>https://example.org/about.html</loc>
-  </url><url>
-    <loc>https://example.org/imprint.html</loc>
+    <loc>http://localhost:42023/</loc>
   </url>
 </urlset>

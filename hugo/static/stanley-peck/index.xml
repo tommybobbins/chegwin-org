@@ -2,93 +2,92 @@
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stanley Peck on Gallery</title>
-    <link>https://example.org/</link>
+    <link>http://localhost:42023/</link>
     <description>Recent content in Stanley Peck on Gallery</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>user@example.com (Your Name)</managingEditor>
     <webMaster>user@example.com (Your Name)</webMaster>
-    <copyright>© Your Name</copyright>
-    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© Your Name</copyright><atom:link href="http://localhost:42023/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1. WW1 Postcards</title>
-      <link>https://example.org/1_postcards.html</link>
+      <link>http://localhost:42023/1_postcards.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>user@example.com (Your Name)</author>
-      <guid>https://example.org/1_postcards.html</guid>
-        <media:content url="https://example.org/1_postcards/26072025173150_0001_hu7193496040526371630.jpg" type="image/jpeg"/>
+      <guid>http://localhost:42023/1_postcards.html</guid>
+        <media:content url="http://localhost:42023/1_postcards/26072025173150_0001_hu7193496040526371630.jpg" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://example.org/1_postcards/26072025173150_0001_hu7193496040526371630.jpg&quot; /&gt;
-          &lt;p&gt;This is the Postcards album.&lt;/p&gt;
+          &lt;img src=&quot;http://localhost:42023/1_postcards/26072025173150_0001_hu7193496040526371630.jpg&quot; /&gt;
+          &lt;p&gt;WW1 Postcards&lt;/p&gt;
         </description></item>
     <item>
       <title>2. Shanghai</title>
-      <link>https://example.org/2_shanghai.html</link>
+      <link>http://localhost:42023/2_shanghai.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>user@example.com (Your Name)</author>
-      <guid>https://example.org/2_shanghai.html</guid>
-        <media:content url="https://example.org/2_shanghai/2.18-20_Stanley_Barry_bobby_as_children_in_Shanghai_0001_hu17402537916688819267.jpg" type="image/jpeg"/>
+      <guid>http://localhost:42023/2_shanghai.html</guid>
+        <media:content url="http://localhost:42023/2_shanghai/2.18-20_Stanley_Barry_bobby_as_children_in_Shanghai_0001_hu17402537916688819267.jpg" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://example.org/2_shanghai/2.18-20_Stanley_Barry_bobby_as_children_in_Shanghai_0001_hu17402537916688819267.jpg&quot; /&gt;
-          &lt;p&gt;This is the Postcards album. It has two sub-albums.&lt;/p&gt;
+          &lt;img src=&quot;http://localhost:42023/2_shanghai/2.18-20_Stanley_Barry_bobby_as_children_in_Shanghai_0001_hu17402537916688819267.jpg&quot; /&gt;
+          &lt;p&gt;Postcards from Shanghai&lt;/p&gt;
         </description></item>
     <item>
       <title>3. School Letters</title>
-      <link>https://example.org/3_stanleys_school_letters.html</link>
+      <link>http://localhost:42023/3_stanleys_school_letters.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>user@example.com (Your Name)</author>
-      <guid>https://example.org/3_stanleys_school_letters.html</guid>
-        <media:content url="https://example.org/3_stanleys_school_letters/remaining_letters_from_school_0002_hu154369100841403924.jpg" type="image/jpeg"/>
+      <guid>http://localhost:42023/3_stanleys_school_letters.html</guid>
+        <media:content url="http://localhost:42023/3_stanleys_school_letters/remaining_letters_from_school_0002_hu154369100841403924.jpg" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://example.org/3_stanleys_school_letters/remaining_letters_from_school_0002_hu154369100841403924.jpg&quot; /&gt;
-          &lt;p&gt;Stanley&#39;s school letters to home.&lt;/p&gt;
+          &lt;img src=&quot;http://localhost:42023/3_stanleys_school_letters/remaining_letters_from_school_0002_hu154369100841403924.jpg&quot; /&gt;
+          &lt;p&gt;Stanley&#39;s school letters to home&lt;/p&gt;
         </description></item>
     <item>
       <title>4. Stanley and Yvonne as young adults</title>
-      <link>https://example.org/4_stanley_and_yvonne_as_young_adults.html</link>
+      <link>http://localhost:42023/4_stanley_and_yvonne_as_young_adults.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>user@example.com (Your Name)</author>
-      <guid>https://example.org/4_stanley_and_yvonne_as_young_adults.html</guid>
-        <media:content url="https://example.org/4_stanley_and_yvonne_as_young_adults/stanley_small_yvonne_dog_hu17047976927371801681.jpg" type="image/jpeg"/>
+      <guid>http://localhost:42023/4_stanley_and_yvonne_as_young_adults.html</guid>
+        <media:content url="http://localhost:42023/4_stanley_and_yvonne_as_young_adults/stanley_small_yvonne_dog_hu17047976927371801681.jpg" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://example.org/4_stanley_and_yvonne_as_young_adults/stanley_small_yvonne_dog_hu17047976927371801681.jpg&quot; /&gt;
+          &lt;img src=&quot;http://localhost:42023/4_stanley_and_yvonne_as_young_adults/stanley_small_yvonne_dog_hu17047976927371801681.jpg&quot; /&gt;
           &lt;p&gt;Stanley and Yvonne in their Youth&lt;/p&gt;
         </description></item>
     <item>
       <title>5. Stanley and Yvonne during WW2</title>
-      <link>https://example.org/5_stanley_and_yvonne_married_stanley_in_the_raf_ww2.html</link>
+      <link>http://localhost:42023/5_stanley_and_yvonne_married_stanley_in_the_raf_ww2.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>user@example.com (Your Name)</author>
-      <guid>https://example.org/5_stanley_and_yvonne_married_stanley_in_the_raf_ww2.html</guid>
-        <media:content url="https://example.org/5_stanley_and_yvonne_married_stanley_in_the_raf_ww2/stanley_flight_instructor_south_africa_1942_hu16506844994590008816.jpg" type="image/jpeg"/>
+      <guid>http://localhost:42023/5_stanley_and_yvonne_married_stanley_in_the_raf_ww2.html</guid>
+        <media:content url="http://localhost:42023/5_stanley_and_yvonne_married_stanley_in_the_raf_ww2/stanley_flight_instructor_south_africa_1942_hu16506844994590008816.jpg" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://example.org/5_stanley_and_yvonne_married_stanley_in_the_raf_ww2/stanley_flight_instructor_south_africa_1942_hu16506844994590008816.jpg&quot; /&gt;
+          &lt;img src=&quot;http://localhost:42023/5_stanley_and_yvonne_married_stanley_in_the_raf_ww2/stanley_flight_instructor_south_africa_1942_hu16506844994590008816.jpg&quot; /&gt;
           &lt;p&gt;Stanley and Yvonne in the RAF during WW2&lt;/p&gt;
         </description></item>
     <item>
       <title>6. Sports</title>
-      <link>https://example.org/6_sports.html</link>
+      <link>http://localhost:42023/6_sports.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>user@example.com (Your Name)</author>
-      <guid>https://example.org/6_sports.html</guid>
-        <media:content url="https://example.org/6_sports/policy_rugby_15_hu11775270237169796286.jpg" type="image/jpeg"/>
+      <guid>http://localhost:42023/6_sports.html</guid>
+        <media:content url="http://localhost:42023/6_sports/policy_rugby_15_hu11775270237169796286.jpg" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://example.org/6_sports/policy_rugby_15_hu11775270237169796286.jpg&quot; /&gt;
+          &lt;img src=&quot;http://localhost:42023/6_sports/policy_rugby_15_hu11775270237169796286.jpg&quot; /&gt;
           &lt;p&gt;Stanley and Sports&lt;/p&gt;
         </description></item>
     <item>
       <title>7. Family Man</title>
-      <link>https://example.org/7_family_man.html</link>
+      <link>http://localhost:42023/7_family_man.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>user@example.com (Your Name)</author>
-      <guid>https://example.org/7_family_man.html</guid>
-        <media:content url="https://example.org/7_family_man/7.32_llanbedrog_Stanley_with_the_children_in_off_boat_0001_hu6554679690942073925.jpg" type="image/jpeg"/>
+      <guid>http://localhost:42023/7_family_man.html</guid>
+        <media:content url="http://localhost:42023/7_family_man/7.32_llanbedrog_Stanley_with_the_children_in_off_boat_0001_hu6554679690942073925.jpg" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://example.org/7_family_man/7.32_llanbedrog_Stanley_with_the_children_in_off_boat_0001_hu6554679690942073925.jpg&quot; /&gt;
+          &lt;img src=&quot;http://localhost:42023/7_family_man/7.32_llanbedrog_Stanley_with_the_children_in_off_boat_0001_hu6554679690942073925.jpg&quot; /&gt;
           &lt;p&gt;Stanley the Family Man&lt;/p&gt;
         </description></item>
     <item>
       <title>Appendix - Family Tree</title>
-      <link>https://example.org/appendix_family_tree.html</link>
+      <link>http://localhost:42023/appendix_family_tree.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>user@example.com (Your Name)</author>
-      <guid>https://example.org/appendix_family_tree.html</guid>
-        <media:content url="https://example.org/appendix_family_tree/ft2_hu13479491128222745101.jpg" type="image/jpeg"/>
+      <guid>http://localhost:42023/appendix_family_tree.html</guid>
+        <media:content url="http://localhost:42023/appendix_family_tree/ft2_hu13479491128222745101.jpg" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://example.org/appendix_family_tree/ft2_hu13479491128222745101.jpg&quot; /&gt;
-          &lt;p&gt;Family Tree Information.&lt;/p&gt;
+          &lt;img src=&quot;http://localhost:42023/appendix_family_tree/ft2_hu13479491128222745101.jpg&quot; /&gt;
+          &lt;p&gt;Family Tree Information&lt;/p&gt;
         </description></item>
   </channel>
 </rss>
