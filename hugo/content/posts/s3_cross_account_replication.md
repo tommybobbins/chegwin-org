@@ -1,4 +1,4 @@
-+++
+---
 title: "Cross Account S3 Replication with Terraform"
 date: "2025-09-07"
 author: "Tim Gibbon"
@@ -7,7 +7,7 @@ keywords: ["s3","replication","aws_s3_bucket_replication_configuration","terrafo
 description : "Terraform Configuration to sync objects between a source and destination S3 bucket"
 type: "post"
 showTableOfContents: true
-+++
+---
 
 # Introduction
 
