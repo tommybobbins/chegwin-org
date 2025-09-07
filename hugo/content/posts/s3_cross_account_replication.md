@@ -11,7 +11,7 @@ showTableOfContents: true
 
 # Introduction
 
-This blog post explains the technical implementation of cross-account Amazon S3 replication using Terraform, based on the miniature-enigma GitHub repository.
+This blog post explains the technical implementation of cross-account Amazon S3 replication using Terraform, based on my [miniature-enigma GitHub repository](https://github.com/tommybobbins/miniature-enigma).
 
 # Overview
 
