@@ -56,7 +56,7 @@ resource "aws_efs_access_point" "grafana" {
 
 # Grafana Ubuntu Image
 
-I wanted to use this because it's available outside of the Docker repository. I'm not linking to it here because I'm not sure I should be advertising it. This is a case of them respinning grafana, and placing the runtime in /app, with their own uids. I decided this was not worth the effort because it looks to be a Canonical NIH. I stuck with the standard Grafana image (I copied it to my own ECR repo to prevent Docker from rug pulling).
+I wanted to use this because it's available outside of the Docker repository in a Public ECR repo. I'm not linking to it here because I'm not sure I should be advertising it and the ARM64 support is sub-optimal. This is a case of them respinning Grafana, and placing the runtime in /app, with their own uids. I don't like this. I decided this was not worth the effort because it smells to me as a (Canonical NIH)[https://en.wikipedia.org/wiki/Not_invented_here]. I settled with the standard Grafana image (I copied it to my own ECR repo to prevent Docker from rug pulling at a later stage).
 
 ## Source Account Resources
 
