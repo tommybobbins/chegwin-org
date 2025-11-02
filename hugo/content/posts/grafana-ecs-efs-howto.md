@@ -1,6 +1,6 @@
 ---
 title: "Grafana in ECS backed by EFS in terraform"
-date: "2025-10-31"
+date: "2025-11-02"
 author: "Tim Gibbon"
 tags: ["ecs","efs","grafana","terraform","tofu", "fargate"]
 keywords: ["ecs","efs","grafana","terraform","tofu","fargate"]
