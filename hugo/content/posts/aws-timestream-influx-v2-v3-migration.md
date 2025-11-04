@@ -11,9 +11,9 @@ showTableOfContents: true
 
 # Howto Backup and Restore a Timestream for InfluxDB 2 database or migrate to InfluxDB 3
 
-AWS announced the [availability](https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-timestream-influxdb-3/) on the 16th of October 2025. The documentation is currently limited and migration paths are not detailed. 
+AWS announced the [availability](https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-timestream-influxdb-3/) of Timestream for InfluxDB 3 on the 16th of October 2025. The documentation is currently limited and so migration options are not detailed. 
 
-This guide explains one way to migrate the data between AWS Timestream for InfluxDBv2 to Timestream for InfluxDB 3 (or extract the data to any influx compatible database).
+This guide explains one way to migrate the data between AWS Timestream for InfluxDBv2 to Timestream for InfluxDB 3 (or extract the data to any influx compatible database). I recommend that you check the data is consistent at every step.
 
 
 ## Overview
@@ -193,3 +193,13 @@ success
 ```
 
 Check that the data has been correctly imported into the Timestream v3 database.
+
+## Thoughts on InfluxDB v3
+
+- The licencing of Timestream for InfluxDB 3 is distinctly odd. You are paying for a subscription through the marketplace and the infrastructure.
+- The influxdb3 binary is really odd. The combined server and client binary goes against 50 years of UNIX design of doing one job and doing it well. I'd love to know why. 
+- It feels like influxdata have thrown the baby out with the bathwater when they decided it was necessary to rewrite everything in Rust. 
+- Getting rid of Flux. I personally would have preferred it being kept for one major release, it's jarring to have to change languages so often.
+- The documentation is nearly adequate, but an unsearchable mess because of the versioning. I think Django makes a much better job of versioning and it would be good for influxdata to have another think about this.
+- InfluxDB 3 Core 72 hour retention for "performance reasons", makes no sense. Just admit that it's a bait and switch and be honest with your customers.
+
