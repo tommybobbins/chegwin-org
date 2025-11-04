@@ -151,7 +151,7 @@ $ influxd inspect export-lp --bucket-id 9a9876543217 --output-path ./bob1-influx
 We can't split based on bytes because the line protocol data needs to not end mid-line and be smaller than 10MB. You may have to experiment with the 80000 value depending on how long the lines are. ```split``` is slow when working with lines.
 
 ```
-$ split -l80000 bob1-export-lp-2025-10-31.lp
+$ split -l80000 bob1-influx2-$(date +%F).lp
 ```
 
 ## Import the Line Protocol data into InfluxDBv3
