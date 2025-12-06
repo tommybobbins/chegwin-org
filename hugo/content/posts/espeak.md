@@ -31,4 +31,3 @@ $ qr "https://www.chegwin.org/media/christmas2025.mp3" --output=christmas2025_qr
 ```
 
 ![Resultant QR code](https://www.chegwin.org/media/christmas2025_qrcode.png)
-https://www.chegwin.org/media/christmas2025_qrcode.png
