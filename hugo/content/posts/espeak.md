@@ -27,7 +27,7 @@ $ ffmpeg -i christmas2025.wav -acodec mp3 christmas2025.mp3
 
 ```
 $ sudo apt-get install python3-qrcode
-$ qr "https://chegwin.org/static/media/christmas2025.mp3" --output=christmas2025_qrcode.png
+$ qr "https://chegwin.org/media/christmas2025.mp3" --output=christmas2025_qrcode.png
 ```
 
-![Resultant QR code](https://chegwin.org/static/media/christmas2025_qrcode.png)
+![Resultant QR code](https://chegwin.org/media/christmas2025_qrcode.png)
