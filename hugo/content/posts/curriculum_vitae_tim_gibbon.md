@@ -8,13 +8,14 @@ showTableOfContents: true
 # Tim Gibbon 07977 549 321 tng@chegwin.org
 ## Professional Experience
 
-### *Apr 2025 - Current* DevSecOps Director, Sense Wellbeing
-– Greenfield infrastructure build out.
-– Cyber Essentials and ISO27001 certification.
-– AWS Organisations, Control Tower and Well Architected Framework implementation.
-– CI/CD rollout for all microservices and (Terraform) infrastructure.
-– Monitoring, Alerting and Logging rollout.
-– Exams: GCP ACE (renewal), CKA (3rd renewal).
+### *Apr 2025 - Current* DevSecOps Director, Sense Technology Group Limited
+
+- Greenfield infrastructure build out.
+- Cyber Essentials and ISO27001 certification.
+- AWS Organisations, Control Tower and Well Architected Framework implementation.
+- CI/CD rollout for all microservices and (Terraform) infrastructure.
+- Monitoring, Alerting and Logging rollout.
+- Exams: GCP ACE (renewal), CKA (3rd renewal).
 
 ### *Jul 2024 - Mar 2025*  Senior Platform Engineer, AND Digital
 
