@@ -5,6 +5,7 @@ languageCode = "en"
 defaultContentLanguage = "en"
 enableRobotsTXT = true
 pygmentsStyle = "monokai"
+uglyURLs = true
 
 [params]
   socialIcons = [
