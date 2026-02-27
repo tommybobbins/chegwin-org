@@ -19,13 +19,13 @@ uglyURLs = true
 [menu]
   [[menu.main]]
     name = "Home"
-    url = "/"
+    url = "/index.html"
     weight = 1
 
   [[menu.main]]
     name = "Posts"
     identifier = "posts"
-    url = "/posts/"
+    url = "/posts.html"
     weight = 2
 
   [[menu.main]]
@@ -37,7 +37,7 @@ uglyURLs = true
   [[menu.main]]
     name = "About"
     identifier = "about"
-    url = "/posts/about/"
+    url = "/posts/about.html"
     weight = 4
 
   [[menu.main]]

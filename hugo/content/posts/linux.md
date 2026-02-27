@@ -13,7 +13,7 @@ Historical links here.
 - [ Slashdot ] (https://slashdot.org)
 - [ How to Pronounce Linux (taken from ftp.funet.fi) ] (ftp://ftp.funet.fi/pub/Linux/PEOPLE/Linus/SillySounds/english.au) 
 - [ Debian Homepage ] (https://debian.org)
-- [ Gnu ] (https://gnu.org)
+- [ GNU ] (https://gnu.org)
 - [ Fedora project ] (https://fedora.org)
 - [ SuSe ] (https://suse.com)
 - [ Matt Welsh. Original Author of getting started. ] (http://matt-welsh.blogspot.com/)
