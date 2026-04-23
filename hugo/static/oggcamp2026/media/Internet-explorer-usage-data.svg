@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="600px" height="300px" viewBox="0 0 1033 420" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style type="text/css">
+text {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 12pt;
+    fill: white;
+    stroke: none;
+}
+#percentage_numbers text {
+    text-anchor: end;
+}
+#x_axis_numbers text {
+    text-anchor: middle;
+    stroke: none;
+}
+</style>
+<desc>Usage share of Internet Explorer</desc>
+<defs>
+    <!-- The lines in the graph are scaled significantly. Make sure the stroke width is set appropriately. -->
+    <line id="horizontal_line" x1="1994" x2="2024.5" y1="0" y2="0" stroke-width="0.3"/>
+    <line id="vertical_line" x1=".01" x2="0" y1="1.5" y2="-1.5" stroke-width="0.05"/>
+</defs>
+<!--
+    ORDER OF TRANSFORMATIONS:
+    (1)    Shift origin from (x, y) to (0, 0) (e.g., from [1994, 0] to [0, 0])
+    (2)    Scale as appropriate
+    (3)    Shift back to viewport's origin
+    (4)    Shift away from edge as desired
+
+    CALCULATIONS:
+    Vertical    =    -Height/Range
+                =    -(290-20)/(100 - 0)
+                ~    -2.5
+-->
+<g transform="translate(60, -20)">
+    <g transform="translate(50, 290) scale(31.25, -2.5) translate(-1995)">
+        <!-- Plot -->
+        <path fill="#555" d="
+M 1994    0
+L 1994.5  0
+L 1995    0
+L 1995.5  2.90
+L 1996   11.50
+L 1996.5 13.78
+L 1997   21.72
+L 1997.5 28.10
+L 1998   33.62
+L 1998.5 40.89
+L 1999   56.08
+L 1999.5 73.53
+L 2000   79.45
+L 2000.5 83.86
+L 2001   86.39
+L 2001.5 87.86
+L 2002   91.63
+L 2002.5 94.08
+L 2003   94.56
+L 2003.5 94.89
+L 2004   94.58
+L 2004.5 93.39
+L 2005   89.76
+L 2005.5 87.47
+L 2006   86.62
+L 2006.5 84.12
+L 2007   83.20
+L 2007.5 81.92
+L 2008   80.61
+L 2008.5 73.01
+L 2009   69.77
+L 2009.5 66.80
+L 2010   62.10
+L 2010.5 51.15
+L 2011   43.8
+L 2011.5 36.78
+L 2012   29.51
+L 2012.5 23.70
+L 2013   18.68
+L 2013.5 15.65
+
+
+L 2015   13.15
+L 2015.5 11.41
+L 2016   10.69
+L 2016.5 10.18
+L 2017    9.17
+L 2017.5  9.41
+L 2018    8.32
+L 2018.5  7.31
+L 2019    6.81
+L 2019.5  6.14
+L 2020    3.44
+L 2020.5  1.69
+L 2021    0.98
+L 2021.5  0.91
+L 2022    0.55
+L 2022.5  0.68
+L 2023    0.40
+L 2023.5  0.44
+L 2024    0.30
+L 2024.5  0.38
+V 0 z
+"/>
+        <!-- X-axis -->
+        <use xlink:href="#horizontal_line" x="0" y="0" stroke="black"/>
+        <!-- Horizontal gridlines -->
+        <g stroke="#ccc">
+            <use xlink:href="#horizontal_line" x="0" y="20"/>
+            <use xlink:href="#horizontal_line" x="0" y="40"/>
+            <use xlink:href="#horizontal_line" x="0" y="60"/>
+            <use xlink:href="#horizontal_line" x="0" y="80"/>
+            <use xlink:href="#horizontal_line" x="0" y="100"/>
+        </g>
+        <!-- Vertical ticks -->
+        <g stroke="#ccc">
+            <use xlink:href="#vertical_line" x="1994" y="0"/>
+            <use xlink:href="#vertical_line" x="1995" y="0"/>
+            <use xlink:href="#vertical_line" x="1996" y="0"/>
+            <use xlink:href="#vertical_line" x="1997" y="0"/>
+            <use xlink:href="#vertical_line" x="1998" y="0"/>
+            <use xlink:href="#vertical_line" x="1999" y="0"/>
+            <use xlink:href="#vertical_line" x="2000" y="0"/>
+            <use xlink:href="#vertical_line" x="2001" y="0"/>
+            <use xlink:href="#vertical_line" x="2002" y="0"/>
+            <use xlink:href="#vertical_line" x="2003" y="0"/>
+            <use xlink:href="#vertical_line" x="2004" y="0"/>
+            <use xlink:href="#vertical_line" x="2005" y="0"/>
+            <use xlink:href="#vertical_line" x="2006" y="0"/>
+            <use xlink:href="#vertical_line" x="2007" y="0"/>
+            <use xlink:href="#vertical_line" x="2008" y="0"/>
+            <use xlink:href="#vertical_line" x="2009" y="0"/>
+            <use xlink:href="#vertical_line" x="2010" y="0"/>
+            <use xlink:href="#vertical_line" x="2011" y="0"/>
+            <use xlink:href="#vertical_line" x="2012" y="0"/>
+            <use xlink:href="#vertical_line" x="2013" y="0"/>
+            <use xlink:href="#vertical_line" x="2014" y="0"/>
+            <use xlink:href="#vertical_line" x="2015" y="0"/>
+            <use xlink:href="#vertical_line" x="2016" y="0"/>
+            <use xlink:href="#vertical_line" x="2017" y="0"/>
+            <use xlink:href="#vertical_line" x="2018" y="0"/>
+            <use xlink:href="#vertical_line" x="2019" y="0"/>
+            <use xlink:href="#vertical_line" x="2020" y="0"/>
+            <use xlink:href="#vertical_line" x="2021" y="0"/>
+            <use xlink:href="#vertical_line" x="2022" y="0"/>
+            <use xlink:href="#vertical_line" x="2023" y="0"/>
+            <use xlink:href="#vertical_line" x="2024" y="0"/>
+        </g>
+    </g>
+    <!-- Text can't be scaled or it goes strange. Its location must be calculated directly. -->
+    <g id="percentage_numbers" transform="translate(-3, 6)" style="text-anchor: end;">
+        <text x="10" y="290">0%</text>
+        <text x="10" y="240">20%</text>
+        <text x="10" y="190">40%</text>
+        <text x="10" y="140">60%</text>
+        <text x="10" y="90">80%</text>
+        <text x="10" y="40">100%</text>
+        <text x="60" y="65">Market share</text>
+    </g>
+    <g id="x_axis_numbers" transform="translate(9, 20)" style="text-anchor: middle;">
+<text x="40"    y="290">1995</text>
+<text x="102.5" y="290">1997</text>
+<text x="165"   y="290">1999</text>
+<text x="227.5" y="290">2001</text>
+<text x="290"   y="290">2003</text>
+<text x="352.5" y="290">2005</text>
+<text x="340"   y="240">Firefox</text>
+<text x="415"   y="290">2007</text>
+<text x="415"   y="260">iPhone</text>
+<text x="450"   y="240">Chrome</text>
+<text x="477.5" y="290">2009</text>
+<text x="510"   y="260">iPad</text>
+<text x="510"   y="220">Browserchoice</text>
+<text x="540"   y="290">2011</text>
+<text x="602.5" y="290">2013</text>
+<text x="665"   y="290">2015</text>
+<text x="727.5" y="290">2017</text>
+<text x="790"   y="290">2019</text>
+<text x="852.5" y="290">2021</text>
+<text x="915"   y="290">2023</text>
+<text x="460"   y="320">Year</text>
+    </g>
+</g>
+</svg>
