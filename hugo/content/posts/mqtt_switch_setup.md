@@ -18,7 +18,8 @@ A work in progress
 I wanted to create some switches in Home Assistant already controlled via a Raspberry Pi. The Pi uses a relay board and sequences of button presses to open/close 3 velux windows.
 The relay board is connected to a proprietary Velux remote control and simulates button presses. It's horrible, but it's been working for 11 years.
 
-Original concept video: ![Raspberry Pi Velux opener](https://www.youtube.com/watch?v=KOUMUorDWvA)
+Original concept video: [Raspberry Pi Velux opener](https://www.youtube.com/watch?v=KOUMUorDWvA)
+Source code: https://github.com/tommybobbins/velpi
 
 ## Pre-requisites
 
