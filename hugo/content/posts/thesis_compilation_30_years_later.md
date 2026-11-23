@@ -12,9 +12,10 @@ I need to work on replacing the encapsulated postscripts (eps) that I used for f
 
 This has led me to revisit how many mistakes my thesis contains in terms of LaTeX, files that I left lying around, backups that emacs made, crash dumps, other people's .bib files.
 
-I've created a new version of my thesis which has shrunk from 1.5MB of compressed files to 1M. I'm pretty pleased with this, but really I'm grinning with how robust LaTeX is 30 years later.
+I've created a new version of my thesis which has shrunk from 1.5MB compressed to 1M. I'm pretty pleased with this reduction, but I'm more impressed about the robustness of LaTeX.
 
 [Original thesis source.](thesis_2010_compilation.tar.gz)
+
 [Updated source, removing the HTML conversion from 2010 and rogue files](Laser_Photofragment_Spectroscopy_of_Diatomic_Molecular_Ions_2_2026-11-22.zip)
 
 
