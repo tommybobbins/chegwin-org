@@ -4,7 +4,7 @@ date: "2026-11-23"
 author: "Tim Gibbon"
 type: "post"
 ---
-# Compiling LaTeX 30 years later
+# Because Plain TeX(t) never goes out of fashion
 
 Since I started working at [Overleaf](https://www.overleaf.com), I've been using my thesis as a test for checking difficult documents. The good news is that it still compiles under latex, pdflatex and under Overleaf. It just about compiles under the free-tier, so it's the perfect document for me.
 
